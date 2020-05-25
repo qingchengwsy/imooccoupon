@@ -1,0 +1,29 @@
+{
+  "available": 0,
+  "category": "001",
+  "count": 1000,
+  "desc": "这是第一张优惠券",
+  "logo": "http://www.imooc.com",
+  "name": "优惠券01",
+  "productLine": "1",
+  "rule": {
+    "discount": {
+      "base": 199,
+      "quota": 20
+    },
+    "expiration": {
+      "deadline": 1568082612129,
+      "gap": 1,
+      "period": 1
+    },
+    "limitation": 1,
+    "usage": {
+      "city": "桐城市",
+      "goodsType": "[1,3]",
+      "province": "安徽省"
+    },
+    "weight": "[]"
+  },
+  "target": "1",
+  "userId": 10001
+}
