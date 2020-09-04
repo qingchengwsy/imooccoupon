@@ -43,7 +43,6 @@ public class UserServiceImple implements UserService {
     /*Redis 服务*/
     private final RedisService redisService;
     /*kafka 服务*/
-    @Autowired
     private final KafkaTemplate kafkaTemplate;
     /*模板微服务客户端*/
     private final TemplateClient templateClient;
@@ -79,7 +78,7 @@ public class UserServiceImple implements UserService {
         } else {
             log.debug("distribution cache is empty, get distribution from db: {},{}",
                     userId, status);
-            List<Coupon> dbCoupons = couponDao.findByUserIdAndStatus(
+            List<Coupon> dbCoupons = couponDao.findAllByUserIdAndStatus(
                     userId, CouponStatus.of(status)
             );
             //如果数据库中没有记录,直接返回就可以了,Cache中已经加入了一个无效优惠券

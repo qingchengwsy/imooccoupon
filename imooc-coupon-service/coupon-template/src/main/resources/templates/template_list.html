@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="UTF-8"/>
+    <title>优惠券模板</title>
+    <style>
+        .center {
+            text-align:center;
+        }
+        table,td,th
+        {
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contentDiv">
+
+    <h2 class="center"> 优惠券模板 </h2>
+
+    <table class="table table-hover table-condensed">
+        <legend>
+            <strong>优惠券模板列表</strong>
+        </legend>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>可用状态</th>
+            <th>名称</th>
+            <th>描述</th>
+            <th>类型</th>
+            <th>产品线</th>
+            <th>个数</th>
+            <th>创建时间</th>
+            <th>创建用户</th>
+            <th>编码</th>
+            <th>目标用户</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="template : ${templates}">
+            <th scope="row" th:text="${template.id}"></th>
+            <td th:text="${template.available}"></td>
+            <td th:text="${template.name}"></td>
+            <td th:text="${template.desc}"></td>
+            <td th:text="${template.category}"></td>
+            <td th:text="${template.productLine}"></td>
+            <td th:text="${template.count}"></td>
+            <td th:text="${template.createTime}"></td>
+            <td th:text="${template.userId}"></td>
+            <td th:text="${template.key}"></td>
+            <td th:text="${template.target}"></td>
+            <td><a class="btn btn-danger" th:href="@{/template/thy/info/{id}(id=${template.id})}">详情</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="center"><a class="btn btn-primary" href="/coupon-template/template/thy/create" role="button">创建优惠券模板</a></div>
+</div>
+
+</body>
+</html>

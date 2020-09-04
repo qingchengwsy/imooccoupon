@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="UTF-8"/>
+    <title>优惠券模板</title>
+    <style>
+        table,td,th
+        {
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h2 class="panel-title">优惠券模板基本信息</h2>
+        </div>
+        <table class="table" th:object="${template}">
+            <tr><td>id</td><td th:text="${template.id}"></td></tr>
+            <tr><td>可用状态</td><td th:text="${template.available}"></td></tr>
+            <tr><td>名称</td><td th:text="${template.name}"></td></tr>
+            <tr><td>描述</td><td th:text="${template.desc}"></td></tr>
+            <tr><td>模板类别</td><td th:text="${template.category}"></td></tr>
+            <tr><td>产品线</td><td th:text="${template.productLine}"></td></tr>
+            <tr><td>总数</td><td th:text="${template.count}"></td></tr>
+            <tr><td>创建时间</td><td th:text="${template.createTime}"></td></tr>
+            <tr><td>创建用户</td><td th:text="${template.userId}"></td></tr>
+            <tr><td>模板编码</td><td th:text="${template.key}"></td></tr>
+            <tr><td>目标用户</td><td th:text="${template.target}"></td></tr>
+        </table>
+    </div>
+
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h2 class="panel-title">优惠券模板规则信息</h2>
+        </div>
+        <table class="table" th:object="${template}">
+            <tr><td>过期规则</td><td th:text="${template.expiration}"></td></tr>
+            <tr><td>折扣规则</td><td th:text="${template.discount}"></td></tr>
+            <tr><td>领取限制张数</td><td th:text="${template.limitation}"></td></tr>
+            <tr><td>使用规则</td><td th:text="${template.usage}"></td></tr>
+            <tr><td>权重</td><td th:text="${template.weight}"></td></tr>
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: distribution-gateway
+eureka:
+  client:
+    service-url:
+     defaultZone: http://127.0.0.1:8000/eureka/
+zuul:
+  prefix: /imooc
+  routes:
+  # 优惠券模板微服务路由定义
+    eureka-client-distribution-template: /coupon-template/**
+  # 分发微服务定义
+    eureka-client-coupon-distribution: /coupon-distribution/**
+  # 结算微服务功能定义
+    eureka-client-coupon-settlement: /coupon-settlement/**
+  host:
+    connect-timeout-millis: 15000  #zuul网关连接的超时时间
+    socket-timeout-millis: 60000  #建立tcp的超时时间
+ribbon:
+  ConnectionTimeout: 15000  #连接超时时间
+  ReadTimeout: 15000    # 响应超时时间

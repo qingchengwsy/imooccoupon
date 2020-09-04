@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a092f5b3-33b0-4b53-a3c0-70d84e8d1edd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bec" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DistributionApplication">
+    <configuration name="DistributionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-distribution" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.distribution.DistributionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.distribution.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettlementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-settlement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.coupon.SettlementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.distribution.TemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="coupon-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.conpon.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="162" width="1421" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599202978221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="162" width="1421" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599202978221" />
+    <state x="690" y="212" key="FileChooserDialogImpl" timestamp="1599206086557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599206086557" />
+    <state width="1280" height="332" key="GridCell.Tab.0.bottom" timestamp="1599206496327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496327" />
+    <state width="1280" height="332" key="GridCell.Tab.0.center" timestamp="1599206496327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496327" />
+    <state width="1280" height="332" key="GridCell.Tab.0.left" timestamp="1599206496327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496327" />
+    <state width="1280" height="332" key="GridCell.Tab.0.right" timestamp="1599206496327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496327" />
+    <state width="1280" height="332" key="GridCell.Tab.1.bottom" timestamp="1599206496328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496328" />
+    <state width="1280" height="332" key="GridCell.Tab.1.center" timestamp="1599206496328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496328" />
+    <state width="1280" height="332" key="GridCell.Tab.1.left" timestamp="1599206496327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496327" />
+    <state width="1280" height="332" key="GridCell.Tab.1.right" timestamp="1599206496328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1280" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599206496328" />
+    <state x="337" y="72" key="SettingsEditor" timestamp="1599202666529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599202666529" />
+    <state x="554" y="189" width="939" height="662" key="find.popup" timestamp="1599208145628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="189" width="939" height="662" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599208145628" />
+  </component>
+</project>
