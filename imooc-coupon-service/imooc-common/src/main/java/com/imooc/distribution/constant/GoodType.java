@@ -25,7 +25,7 @@ public enum GoodType {
     /*商品类型编码*/
     private Integer code;
 
-    public GoodType of(Integer code) {
+    public static GoodType of(Integer code) {
         Objects.requireNonNull(code);
         return Stream.of(values())
                 .filter(bean -> bean.code.equals(code))
