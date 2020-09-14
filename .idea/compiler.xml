@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="coupon-eureka" />
         <module name="coupon-template" />
+        <module name="coupon-settlement" />
         <module name="coupon-gateway" />
         <module name="coupon-distribution" />
-        <module name="coupongateway" />
+        <module name="coupon-permission-sdk" />
         <module name="imooc-common" />
-        <module name="coupon-settlement" />
+        <module name="coupongateway" />
+        <module name="coupon-permission-service" />
         <module name="couponeureka" />
       </profile>
     </annotationProcessing>
@@ -23,6 +25,8 @@
       <module name="coupon-distribution" options="-parameters" />
       <module name="coupon-eureka" options="-parameters" />
       <module name="coupon-gateway" options="-parameters" />
+      <module name="coupon-permission-sdk" options="-parameters" />
+      <module name="coupon-permission-service" options="-parameters" />
       <module name="coupon-settlement" options="-parameters" />
       <module name="coupon-template" options="-parameters" />
       <module name="imooc-common" options="-parameters" />
