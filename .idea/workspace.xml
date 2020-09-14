@@ -40,7 +40,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-coupon-service/coupon-permission-service/src/main/java/com/imooc/coupon/entity" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/docs/代码/前端/gulimall-admin-vue-app" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -126,11 +126,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -153,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="117" width="1421" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600070085716" />
-    <state x="690" y="212" key="FileChooserDialogImpl" timestamp="1600062500574">
+    <state x="690" y="212" key="FileChooserDialogImpl" timestamp="1600075003157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600062500574" />
+    <state x="690" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600075003157" />
     <state width="1280" height="225" key="GridCell.Tab.0.bottom" timestamp="1600063154406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
